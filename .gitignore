@@ -1,0 +1,16 @@
+# idea
+
+.idea/
+*.iml
+*.iws
+*.iws
+
+# gradle
+
+.gradle/
+build/
+out/
+
+# project
+
+run/

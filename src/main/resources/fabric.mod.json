@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "$modid",
+  "version": "$version",
+  "name": "$name",
+  "description": "$description",
+  "authors": [
+    "Nikky"
+  ],
+  "contact": {
+    "irc": "irc://irc.esper.net:6667/fabric",
+    "issues": "$issues",
+    "sources": "$sources"
+  },
+  "license": "Apache-2.0",
+  "icon": "$icon",
+  "custom": {
+    "modmenu:api": true
+  },
+  "depends": {
+    "fabric": ">=${fabricApiVersion}",
+    "fabric-language-kotlin": ">=${kotlinVersion}"
+  }
+}
